@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Vendedores</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Registro de Vendedores</h1>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Formulario de Registro</h2>
+            <form id="vendedor-form">
+                <label for="nombre-vendedor">Nombre de la empresa/vendedor:</label>
+                <input type="text" id="nombre-vendedor" name="nombre-vendedor" placeholder="Nombre o Razón Social" required>
+
+                <label for="correo-vendedor">Correo electrónico:</label>
+                <input type="email" id="correo-vendedor" name="correo-vendedor" placeholder="ejemplo@correo.com" required>
+
+                <label for="telefono-vendedor">Teléfono:</label>
+                <input type="tel" id="telefono-vendedor" name="telefono-vendedor" placeholder="Número de contacto" required>
+
+                <label for="rnc">RNC (Registro Nacional del Contribuyente):</label>
+                <input type="text" id="rnc" name="rnc" placeholder="Ingresa tu RNC (opcional)">
+
+                <label for="direccion-vendedor">Dirección:</label>
+                <input type="text" id="direccion-vendedor" name="direccion-vendedor" placeholder="Dirección de la empresa" required>
+
+                <label for="descripcion">Descripción del negocio:</label>
+                <textarea id="descripcion" name="descripcion" placeholder="Describe tu negocio o productos" rows="4"></textarea>
+
+                <label for="contraseña-vendedor">Contraseña:</label>
+                <input type="password" id="contraseña-vendedor" name="contraseña-vendedor" placeholder="Crea una contraseña" required>
+
+                <button type="submit">Registrarse</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Plataforma de Productos Locales</p>
+    </footer>
+</body>
+</html>
